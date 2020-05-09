@@ -1,0 +1,13 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Report extends Model
+{
+    protected $table = "reports";
+    protected $fillable = [
+        'fullName', 'age', 'address', 'homeNumber', 'mobile', 'clothing', 'lastSeen', 'stepsTaken', 'relationship', 'yourNumber', 'image', 'userId', 'description', 'status'
+    ];
+}
